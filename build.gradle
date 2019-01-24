@@ -18,12 +18,16 @@ buildscript {
 plugins {
     id 'com.gradle.build-scan' version '1.16'
     id 'eclipse'
+    id 'jacoco'
+    id 'java'    
 }
+
 
 description = 'Mockito mock objects library core API and implementation'
 
 apply plugin: 'base'
 archivesBaseName = "mockito-core"
+
 
 apply plugin: "org.shipkit.java"
 allprojects {
@@ -32,7 +36,18 @@ allprojects {
         bintrayUpload.enabled = false
     }
 }
+test.finalizedBy jacocoTestReport
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+        csv.enabled true
+    }
+}
 
+jacoco {
+    toolVersion = "0.8.2"
+}
 apply from: 'gradle/root/ide.gradle'
 apply from: 'gradle/root/gradle-fix.gradle'
 apply from: 'gradle/root/java-compatibility-check.gradle'
@@ -112,4 +127,6 @@ subprojects {
         }
     }
 }
+
+
 //end workaround
