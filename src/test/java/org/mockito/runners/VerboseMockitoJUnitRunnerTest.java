@@ -1,3 +1,4 @@
+//CHECKSTYLE:OFF
 package org.mockito.runners;
 
 import org.junit.Before;
@@ -43,3 +44,4 @@ public class VerboseMockitoJUnitRunnerTest extends TestBase {
         assertEquals(expectedDescription, description);
     }
 }
+//CHECKSTYLE:ON
