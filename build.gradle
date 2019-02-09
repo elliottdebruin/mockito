@@ -2,14 +2,16 @@ buildscript {
     repositories {
         mavenLocal() //for local testing of mockito-release-tools
         jcenter()
-        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://plugins.gradle.org/m2/" 
+          url "https://plugins.gradle.org/m2/"
+        }
     }
 
     dependencies {
         classpath 'gradle.plugin.nl.javadude.gradle.plugins:license-gradle-plugin:0.14.0'
         classpath 'ru.vyarus:gradle-animalsniffer-plugin:1.4.4' //for 'java-compatibility-check.gradle'
         classpath 'net.ltgt.gradle:gradle-errorprone-plugin:0.6'
-
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.1'
         //Using buildscript.classpath so that we can resolve shipkit from maven local, during local testing
         classpath 'org.shipkit:shipkit:2.0.28'
     }
@@ -20,8 +22,8 @@ plugins {
     id 'eclipse'
     id 'jacoco'
     id 'java'    
+    id "com.github.johnrengelman.shadow" version "4.0.4"
 }
-
 
 description = 'Mockito mock objects library core API and implementation'
 
@@ -42,6 +44,12 @@ jacocoTestReport {
         xml.enabled true
         html.enabled true
         csv.enabled true
+    }
+}
+
+task printClasspath {
+    doLast {
+        configurations.testRuntime.each { println it }
     }
 }
 
@@ -101,6 +109,7 @@ dependencies {
     testUtil sourceSets.test.output
 }
 
+
 wrapper {
     gradleVersion = '4.9'
     distributionSha256Sum = 'e66e69dce8173dd2004b39ba93586a184628bc6c28461bc771d6835f7f9b0d28'
@@ -128,5 +137,14 @@ subprojects {
     }
 }
 
+shadowJar {
+   baseName = 'shadow'
+   classifier = null
+   version = null
+}
+
+dependencies {
+  shadow 'junit:junit:3.8.2'
+}
 
 //end workaround
