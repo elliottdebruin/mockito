@@ -1,1 +1,418 @@
-NumberOfInvocationsChecker AtLeastXNumberOfInvocationsChecker MissingInvocationChecker AtLeastDiscrepancy SerializableMode DefaultLenientStubber BaseStubbing DoAnswerStyleStubbing OngoingStubbingImpl ConsecutiveStubbing UnusedStubbingReporting StrictnessSelector StubbedInvocationMatcher StubberImpl StubbingComparator InvocationContainerImpl JUnitFailureHacker MatcherGenericTypeExtractor HamcrestArgumentMatcher VerificationDataInOrderImpl InjectingAnnotationEngine ClassPathLoader IndependentAnnotationEngine.new FieldAnnotationProcessor() {...} IndependentAnnotationEngine SpyAnnotationEngine DefaultInjectionEngine CaptorAnnotationProcessor GlobalConfiguration MockAnnotationProcessor MockitoCore InOrderImpl GenericMetadataSupport.NotGenericReturnTypeSupport GenericMetadataSupport.ParameterizedReturnType GenericTypeExtractor SuperTypesLastSorter FieldCopier SuperTypesLastSorter.new Comparator() {...} GenericMetadataSupport.TypeVariableReturnType FieldInitializer AccessibilityChanger FieldInitializer.ParameterizedConstructorInstantiator Fields.InstanceFields FieldInitializer.NoArgConstructorInstantiator Fields.new ListUtil.Filter() {...} Fields.new ListUtil.Filter() {...} Fields.new ListUtil.Filter() {...} GenericMetadataSupport.GenericArrayReturnType GenericMetadataSupport.FromClassGenericMetadataSupport GenericMetadataSupport.WildCardBoundedType BeanPropertySetter FieldSetter FieldInitializer.ParameterizedConstructorInstantiator.new Comparator() {...} LenientCopyTool GenericMetadataSupport.FromParameterizedTypeGenericMetadataSupport GenericMetadataSupport InstanceField Fields GenericMaster FieldReader FieldInitializationReport GenericMetadataSupport.TypeVarBoundedType Reporter ExceptionIncludingMockitoWarnings ScenarioPrinter EndsWith Or Null Find Contains InstanceOf.VarArgAware EqualsWithDelta Equality Equals CapturingMatcher LessThan NotNull LocalizedMatcher Same StartsWith ArrayEquals Not CompareTo GreaterThan Matches LessOrEqual GreaterOrEqual CompareEqual Any And InstanceOf ArgumentsAreDifferent InjectMocksScanner MockScanner LoggingListener Localized WarningsFinder WarningsCollector LocationImpl InvocationsPrinter VerboseMockInvocationLogger InvocationsPrinter.new ListUtil.Filter() {...} WarningsPrinterImpl MockitoDebuggerImpl ArgumentMatcherStorageImpl SequenceNumber ThreadSafeMockingProgress.new ThreadLocal() {...} MockingProgressImpl.new VerificationStrategy() {...} MockingProgressImpl ThreadSafeMockingProgress PluginFinder PluginLoader.new InvocationHandler() {...} DefaultPluginSwitch PluginFileReader PluginRegistry PluginLoader Plugins PluginInitializer DefaultMockitoPlugins Platform MockCreationValidator JavaEightUtil ConsoleMockitoLogger DefaultMockingDetails Checks Timer MockUtil Primitives MockNameImpl StringUtil ObjectMethodsGuru StackTraceFilter ConditionalStackTraceFilter DefaultStackTraceCleanerProvider DefaultStackTraceCleaner EqualsBuilder ReflectionEquals Discrepancy PrintSettings SmartPrinter Pluralizer VerificationDataImpl InOrderContextImpl MockAwareVerificationMode AtLeast NoMoreInteractions VerificationWrapperInOrderWrapper SingleRegisteredInvocation AtMost InOrderWrapper VerificationWrapper VerificationEventImpl Calls Description DefaultRegisteredInvocations VerificationOverTimeImpl VerificationModeFactory Only Times DefaultRegisteredInvocations.RemoveToString MockitoInitializationException MockitoAssertionError MockitoException MockitoSerializationIssue IdentitySet HashCodeAndEqualsSafeSet Sets HashCodeAndEqualsSafeSet.new Iterator() {...} ListUtil HashCodeAndEqualsMockWrapper Iterables After Timeout MatcherToString ValuePrinter FormattedText MatchersPrinter ValuePrinter.new Iterator() {...} WeakConcurrentMap.WithInlinedExpunction WeakConcurrentSet.ReducingIterator WeakConcurrentSet.Cleaner WeakConcurrentMap.WeakKey WeakConcurrentSet DetachedThreadLocal.Cleaner DetachedThreadLocal.new WeakConcurrentMap.WithInlinedExpunction() {...} WeakConcurrentMap.EntryIterator WeakConcurrentMap WeakConcurrentMap.LatentKey DetachedThreadLocal DetachedThreadLocal.new WeakConcurrentMap() {...} WeakConcurrentMap.SimpleEntry MoreThanAllowedActualInvocations WantedButNotInvoked ArgumentsAreDifferent NoInteractionsWanted SmartNullPointerException NeverWantedButInvoked TooManyActualInvocations VerificationInOrderFailure TooLittleActualInvocations MockitoJUnitRunner.Silent MockitoJUnitRunner.Strict MockitoJUnitRunner MockitoJUnitRunner.StrictStubs MockitoJUnit ArgumentMatchingTool DefaultMockitoFramework DefaultMockitoSession DefaultMockitoSession.new TestFinishedEvent() {...} DefaultMockitoConfiguration InvocationNotifierHandler NullResultGuardian MockHandlerImpl NotifiedMethodInvocationReport MockHandlerFactory VerificationStartedNotifier VerificationStartedNotifier.Event StubbingLookupNotifier StubbingLookupNotifier.Event TerminalMockCandidateFilter NameBasedCandidateFilter OngoingInjector.new OngoingInjector() {...} TypeBasedCandidateFilter OngoingInjector TerminalMockCandidateFilter.new OngoingInjector() {...} InstantiationException MockitoSessionLoggerAdapter MockitoLoggerAdapter DefaultMockitoSessionBuilder JUnitRule.new Statement() {...} ExceptionFactory NoOpTestListener VerificationCollectorImpl ArgMismatchFinder DefaultTestFinishedEvent DefaultStubbingLookupListener UnusedStubbingsFinder.new ListUtil.Filter() {...} StubbingArgMismatches JUnitRule StubbingHint MismatchReportingTestListener UniversalTestListener UnnecessaryStubbingsReporter UnusedStubbings ExceptionFactory.JUnitArgsAreDifferent VerificationCollectorImpl.new Statement() {...} VerificationCollectorImpl.new VerificationStrategy() {...} StrictStubsRunnerTestListener UnusedStubbingsFinder VerificationCollectorImpl.VerificationWrapper CallsRealMethods DoesNothing ReturnsArgumentAt ThrowsException AnswerFunctionalInterfaces DefaultAnswerValidator InvocationInfo ReturnsElementsOf AnswersWithDelay ClonesArguments AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} AnswerFunctionalInterfaces.new Answer() {...} Returns AnswerFunctionalInterfaces.new Answer() {...} StrictRunner RunnerFactory DefaultInternalRunner RunnerFactory.new Supplier() {...} RunnerFactory.new Supplier() {...} RunnerFactory.new Supplier() {...} DefaultInternalRunner.1.new RunListener() {...} DefaultInternalRunner.new BlockJUnit4ClassRunner() {...} InjectionBase ModuleHandler.ModuleSystemFound MockMethodInterceptor MockMethodAdvice MockMethodAdvice.RealMethodCall SubclassBytecodeGenerator ByteBuddyCrossClassLoaderSerializationSupport InlineByteBuddyMockMaker SubclassInjectionLoader.WithLookup ModuleHandler TypeCachingBytecodeGenerator.new Callable() {...} MockMethodInterceptor.ForWriteReplace ByteBuddyCrossClassLoaderSerializationSupport.MockitoMockObjectInputStream SubclassInjectionLoader MockMethodInterceptor.DispatcherDefaultingToRealMethod MockMethodDispatcher MockMethodAdvice.ForReadObject SubclassInjectionLoader.WithReflection MockMethodInterceptor.ForHashCode SubclassByteBuddyMockMaker InlineBytecodeGenerator MockMethodAdvice.SerializableRealMethodCall MockMethodAdvice.ForEquals InlineBytecodeGenerator.ParameterWritingVisitorWrapper.MethodParameterStrippingMethodVisitor SubclassByteBuddyMockMaker.new MockMaker.TypeMockability() {...} MockMethodInterceptor.ForEquals MockMethodAdvice.SelfCallInfo ModuleHandler.NoModuleSystemFound ByteBuddyMockMaker MockFeatures InlineByteBuddyMockMaker.new MockMaker.TypeMockability() {...} ByteBuddyCrossClassLoaderSerializationSupport.CrossClassLoaderSerializationProxy ByteBuddyCrossClassLoaderSerializationSupport.MockitoMockObjectOutputStream MockMethodAdvice.ReturnValueWrapper TypeCachingBytecodeGenerator.MockitoMockKey MockMethodAdvice.ForHashCode TypeCachingBytecodeGenerator InlineBytecodeGenerator.ParameterWritingVisitorWrapper InlineBytecodeGenerator.ParameterWritingVisitorWrapper.ParameterAddingClassVisitor InjectMocksException WrongTypeOfReturnValue NullInsteadOfMockException MissingMethodInvocationException InvalidUseOfMatchersException MockitoConfigurationException UnfinishedStubbingException UnnecessaryStubbingException CannotVerifyStubOnlyMock RedundantListenerException FriendlyReminderException UnfinishedVerificationException UnfinishedMockingSessionException PotentialStubbingProblem NotAMockException CannotStubVoidMethodWithReturnValue IOUtil MockSettingsImpl SuspendMethod DelegatingMethod MockitoJUnitRunner.Silent VerboseMockitoJUnitRunner.new RunListener() {...} ConsoleSpammingMockitoJUnitRunner.new RunListener() {...} MockitoJUnitRunner.Strict ConsoleSpammingMockitoJUnitRunner MockitoJUnitRunner VerboseMockitoJUnitRunner ConstructorInjection.SimpleArgumentResolver MockInjection.OngoingMockInjection MockInjection PropertyAndSetterInjection.new ListUtil.Filter() {...} PropertyAndSetterInjection MockInjectionStrategy MockInjectionStrategy.new MockInjectionStrategy() {...} ConstructorInjection SpyOnInjectedFieldsHandler TestMethodsFinder FailureDetector RunnerProvider ReturnsDeepStubs.DeeplyStubbedAnswer ReturnsDeepStubs.ReturnsDeepStubsSerializationFallback ReturnsMoreEmptyValues ForwardsInvocations ReturnsSmartNulls ReturnsSmartNulls.ThrowsSmartNullPointer ReturnsEmptyValues ReturnsDeepStubs GloballyConfiguredAnswer ReturnsMocks TriesToReturnSelf ReturnsDeepStubs.LazyHolder CreationSettings VerifiableInvocationsFinder.RemoveIgnoredForVerification AllInvocationsFinder VerifiableInvocationsFinder ObjenesisInstantiator InstantiatorProvider2Adapter InstantiationException DefaultInstantiatorProvider InstantiatorProvider2Adapter.new Instantiator() {...} InstantiatorProviderAdapter.new Instantiator() {...} InstantiatorProviderAdapter ConstructorInstantiator InvocationsFinder UnusedStubsFinder MatcherApplicationStrategy.MatcherApplicationType RealMethod.IsIllegal InterceptedInvocation.new RealMethod() {...} InterceptedInvocation InvocationsFinder.RemoveUnverifiedInOrder InvocationMatcher.new ArgumentMatcherAction() {...} StubInfoImpl DefaultInvocationFactory MatchersBinder RealMethod.FromCallable InvocationsFinder.RemoveNotMatching InvocationMarker InvocationComparator RealMethod.FromCallable.new InvocationFactory.RealMethodBehavior() {...} InvocationMatcher SerializableMethod MatcherApplicationStrategy ArgumentsProcessor RealMethod.FromBehavior TypeSafeMatching MockitoHamcrest AdditionalMatchers AdditionalAnswers ArgumentCaptor BDDMockito.ThenImpl ArgumentMatchers BDDMockito BDDMockito.BDDStubberImpl MockitoAnnotations Answers Matchers BDDMockito.BDDOngoingStubbingImpl Mockito Strictness MockWeakReference MockStrongReference
+NumberOfInvocationsChecker
+AtLeastXNumberOfInvocationsChecker
+MissingInvocationChecker
+AtLeastDiscrepancy
+SerializableMode
+DefaultLenientStubber
+BaseStubbing
+DoAnswerStyleStubbing
+OngoingStubbingImpl
+ConsecutiveStubbing
+UnusedStubbingReporting
+StrictnessSelector
+StubbedInvocationMatcher
+StubberImpl
+StubbingComparator
+InvocationContainerImpl
+JUnitFailureHacker
+MatcherGenericTypeExtractor
+HamcrestArgumentMatcher
+VerificationDataInOrderImpl
+InjectingAnnotationEngine
+ClassPathLoader
+IndependentAnnotationEngine.new FieldAnnotationProcessor() {...}
+IndependentAnnotationEngine
+SpyAnnotationEngine
+DefaultInjectionEngine
+CaptorAnnotationProcessor
+GlobalConfiguration
+MockAnnotationProcessor
+MockitoCore
+InOrderImpl
+GenericMetadataSupport.NotGenericReturnTypeSupport
+GenericMetadataSupport.ParameterizedReturnType
+GenericTypeExtractor
+SuperTypesLastSorter
+FieldCopier
+SuperTypesLastSorter.new Comparator() {...}
+GenericMetadataSupport.TypeVariableReturnType
+FieldInitializer
+AccessibilityChanger
+FieldInitializer.ParameterizedConstructorInstantiator
+Fields.InstanceFields
+FieldInitializer.NoArgConstructorInstantiator
+Fields.new ListUtil.Filter() {...}
+Fields.new ListUtil.Filter() {...}
+Fields.new ListUtil.Filter() {...}
+GenericMetadataSupport.GenericArrayReturnType
+GenericMetadataSupport.FromClassGenericMetadataSupport
+GenericMetadataSupport.WildCardBoundedType
+BeanPropertySetter
+FieldSetter
+FieldInitializer.ParameterizedConstructorInstantiator.new Comparator() {...}
+LenientCopyTool
+GenericMetadataSupport.FromParameterizedTypeGenericMetadataSupport
+GenericMetadataSupport
+InstanceField
+Fields
+GenericMaster
+FieldReader
+FieldInitializationReport
+GenericMetadataSupport.TypeVarBoundedType
+Reporter
+ExceptionIncludingMockitoWarnings
+ScenarioPrinter
+EndsWith
+Or
+Null
+Find
+Contains
+InstanceOf.VarArgAware
+EqualsWithDelta
+Equality
+Equals
+CapturingMatcher
+LessThan
+NotNull
+LocalizedMatcher
+Same
+StartsWith
+ArrayEquals
+Not
+CompareTo
+GreaterThan
+Matches
+LessOrEqual
+GreaterOrEqual
+CompareEqual
+Any
+And
+InstanceOf
+ArgumentsAreDifferent
+InjectMocksScanner
+MockScanner
+LoggingListener
+Localized
+WarningsFinder
+WarningsCollector
+LocationImpl
+InvocationsPrinter
+VerboseMockInvocationLogger
+InvocationsPrinter.new ListUtil.Filter() {...}
+WarningsPrinterImpl
+MockitoDebuggerImpl
+ArgumentMatcherStorageImpl
+SequenceNumber
+ThreadSafeMockingProgress.new ThreadLocal() {...}
+MockingProgressImpl.new VerificationStrategy() {...}
+MockingProgressImpl
+ThreadSafeMockingProgress
+PluginFinder
+PluginLoader.new InvocationHandler() {...}
+DefaultPluginSwitch
+PluginFileReader
+PluginRegistry
+PluginLoader
+Plugins
+PluginInitializer
+DefaultMockitoPlugins
+Platform
+MockCreationValidator
+JavaEightUtil
+ConsoleMockitoLogger
+DefaultMockingDetails
+Checks
+Timer
+MockUtil
+Primitives
+MockNameImpl
+StringUtil
+ObjectMethodsGuru
+StackTraceFilter
+ConditionalStackTraceFilter
+DefaultStackTraceCleanerProvider
+DefaultStackTraceCleaner
+EqualsBuilder
+ReflectionEquals
+Discrepancy
+PrintSettings
+SmartPrinter
+Pluralizer
+VerificationDataImpl
+InOrderContextImpl
+MockAwareVerificationMode
+AtLeast
+NoMoreInteractions
+VerificationWrapperInOrderWrapper
+SingleRegisteredInvocation
+AtMost
+InOrderWrapper
+VerificationWrapper
+VerificationEventImpl
+Calls
+Description
+DefaultRegisteredInvocations
+VerificationOverTimeImpl
+VerificationModeFactory
+Only
+Times
+DefaultRegisteredInvocations.RemoveToString
+MockitoInitializationException
+MockitoAssertionError
+MockitoException
+MockitoSerializationIssue
+IdentitySet
+HashCodeAndEqualsSafeSet
+Sets
+HashCodeAndEqualsSafeSet.new Iterator() {...}
+ListUtil
+HashCodeAndEqualsMockWrapper
+Iterables
+After
+Timeout
+MatcherToString
+ValuePrinter
+FormattedText
+MatchersPrinter
+ValuePrinter.new Iterator() {...}
+WeakConcurrentMap.WithInlinedExpunction
+WeakConcurrentSet.ReducingIterator
+WeakConcurrentSet.Cleaner
+WeakConcurrentMap.WeakKey
+WeakConcurrentSet
+DetachedThreadLocal.Cleaner
+DetachedThreadLocal.new WeakConcurrentMap.WithInlinedExpunction() {...}
+WeakConcurrentMap.EntryIterator
+WeakConcurrentMap
+WeakConcurrentMap.LatentKey
+DetachedThreadLocal
+DetachedThreadLocal.new WeakConcurrentMap() {...}
+WeakConcurrentMap.SimpleEntry
+MoreThanAllowedActualInvocations
+WantedButNotInvoked
+ArgumentsAreDifferent
+NoInteractionsWanted
+SmartNullPointerException
+NeverWantedButInvoked
+TooManyActualInvocations
+VerificationInOrderFailure
+TooLittleActualInvocations
+MockitoJUnitRunner.Silent
+MockitoJUnitRunner.Strict
+MockitoJUnitRunner
+MockitoJUnitRunner.StrictStubs
+MockitoJUnit
+ArgumentMatchingTool
+DefaultMockitoFramework
+DefaultMockitoSession
+DefaultMockitoSession.new TestFinishedEvent() {...}
+DefaultMockitoConfiguration
+InvocationNotifierHandler
+NullResultGuardian
+MockHandlerImpl
+NotifiedMethodInvocationReport
+MockHandlerFactory
+VerificationStartedNotifier
+VerificationStartedNotifier.Event
+StubbingLookupNotifier
+StubbingLookupNotifier.Event
+TerminalMockCandidateFilter
+NameBasedCandidateFilter
+OngoingInjector.new OngoingInjector() {...}
+TypeBasedCandidateFilter
+OngoingInjector
+TerminalMockCandidateFilter.new OngoingInjector() {...}
+InstantiationException
+MockitoSessionLoggerAdapter
+MockitoLoggerAdapter
+DefaultMockitoSessionBuilder
+JUnitRule.new Statement() {...}
+ExceptionFactory
+NoOpTestListener
+VerificationCollectorImpl
+ArgMismatchFinder
+DefaultTestFinishedEvent
+DefaultStubbingLookupListener
+UnusedStubbingsFinder.new ListUtil.Filter() {...}
+StubbingArgMismatches
+JUnitRule
+StubbingHint
+MismatchReportingTestListener
+UniversalTestListener
+UnnecessaryStubbingsReporter
+UnusedStubbings
+ExceptionFactory.JUnitArgsAreDifferent
+VerificationCollectorImpl.new Statement() {...}
+VerificationCollectorImpl.new VerificationStrategy() {...}
+StrictStubsRunnerTestListener
+UnusedStubbingsFinder
+VerificationCollectorImpl.VerificationWrapper
+CallsRealMethods
+DoesNothing
+ReturnsArgumentAt
+ThrowsException
+AnswerFunctionalInterfaces
+DefaultAnswerValidator
+InvocationInfo
+ReturnsElementsOf
+AnswersWithDelay
+ClonesArguments
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+AnswerFunctionalInterfaces.new Answer() {...}
+Returns
+AnswerFunctionalInterfaces.new Answer() {...}
+StrictRunner
+RunnerFactory
+DefaultInternalRunner
+RunnerFactory.new Supplier() {...}
+RunnerFactory.new Supplier() {...}
+RunnerFactory.new Supplier() {...}
+DefaultInternalRunner.1.new RunListener() {...}
+DefaultInternalRunner.new BlockJUnit4ClassRunner() {...}
+InjectionBase
+ModuleHandler.ModuleSystemFound
+MockMethodInterceptor
+MockMethodAdvice
+MockMethodAdvice.RealMethodCall
+SubclassBytecodeGenerator
+ByteBuddyCrossClassLoaderSerializationSupport
+InlineByteBuddyMockMaker
+SubclassInjectionLoader.WithLookup
+ModuleHandler
+TypeCachingBytecodeGenerator.new Callable() {...}
+MockMethodInterceptor.ForWriteReplace
+ByteBuddyCrossClassLoaderSerializationSupport.MockitoMockObjectInputStream
+SubclassInjectionLoader
+MockMethodInterceptor.DispatcherDefaultingToRealMethod
+MockMethodDispatcher
+MockMethodAdvice.ForReadObject
+SubclassInjectionLoader.WithReflection
+MockMethodInterceptor.ForHashCode
+SubclassByteBuddyMockMaker
+InlineBytecodeGenerator
+MockMethodAdvice.SerializableRealMethodCall
+MockMethodAdvice.ForEquals
+InlineBytecodeGenerator.ParameterWritingVisitorWrapper.MethodParameterStrippingMethodVisitor
+SubclassByteBuddyMockMaker.new MockMaker.TypeMockability() {...}
+MockMethodInterceptor.ForEquals
+MockMethodAdvice.SelfCallInfo
+ModuleHandler.NoModuleSystemFound
+ByteBuddyMockMaker
+MockFeatures
+InlineByteBuddyMockMaker.new MockMaker.TypeMockability() {...}
+ByteBuddyCrossClassLoaderSerializationSupport.CrossClassLoaderSerializationProxy
+ByteBuddyCrossClassLoaderSerializationSupport.MockitoMockObjectOutputStream
+MockMethodAdvice.ReturnValueWrapper
+TypeCachingBytecodeGenerator.MockitoMockKey
+MockMethodAdvice.ForHashCode
+TypeCachingBytecodeGenerator
+InlineBytecodeGenerator.ParameterWritingVisitorWrapper
+InlineBytecodeGenerator.ParameterWritingVisitorWrapper.ParameterAddingClassVisitor
+InjectMocksException
+WrongTypeOfReturnValue
+NullInsteadOfMockException
+MissingMethodInvocationException
+InvalidUseOfMatchersException
+MockitoConfigurationException
+UnfinishedStubbingException
+UnnecessaryStubbingException
+CannotVerifyStubOnlyMock
+RedundantListenerException
+FriendlyReminderException
+UnfinishedVerificationException
+UnfinishedMockingSessionException
+PotentialStubbingProblem
+NotAMockException
+CannotStubVoidMethodWithReturnValue
+IOUtil
+MockSettingsImpl
+SuspendMethod
+DelegatingMethod
+MockitoJUnitRunner.Silent
+VerboseMockitoJUnitRunner.new RunListener() {...}
+ConsoleSpammingMockitoJUnitRunner.new RunListener() {...}
+MockitoJUnitRunner.Strict
+ConsoleSpammingMockitoJUnitRunner
+MockitoJUnitRunner
+VerboseMockitoJUnitRunner
+ConstructorInjection.SimpleArgumentResolver
+MockInjection.OngoingMockInjection
+MockInjection
+PropertyAndSetterInjection.new ListUtil.Filter() {...}
+PropertyAndSetterInjection
+MockInjectionStrategy
+MockInjectionStrategy.new MockInjectionStrategy() {...}
+ConstructorInjection
+SpyOnInjectedFieldsHandler
+TestMethodsFinder
+FailureDetector
+RunnerProvider
+ReturnsDeepStubs.DeeplyStubbedAnswer
+ReturnsDeepStubs.ReturnsDeepStubsSerializationFallback
+ReturnsMoreEmptyValues
+ForwardsInvocations
+ReturnsSmartNulls
+ReturnsSmartNulls.ThrowsSmartNullPointer
+ReturnsEmptyValues
+ReturnsDeepStubs
+GloballyConfiguredAnswer
+ReturnsMocks
+TriesToReturnSelf
+ReturnsDeepStubs.LazyHolder
+CreationSettings
+VerifiableInvocationsFinder.RemoveIgnoredForVerification
+AllInvocationsFinder
+VerifiableInvocationsFinder
+ObjenesisInstantiator
+InstantiatorProvider2Adapter
+InstantiationException
+DefaultInstantiatorProvider
+InstantiatorProvider2Adapter.new Instantiator() {...}
+InstantiatorProviderAdapter.new Instantiator() {...}
+InstantiatorProviderAdapter
+ConstructorInstantiator
+InvocationsFinder
+UnusedStubsFinder
+MatcherApplicationStrategy.MatcherApplicationType
+RealMethod.IsIllegal
+InterceptedInvocation.new RealMethod() {...}
+InterceptedInvocation
+InvocationsFinder.RemoveUnverifiedInOrder
+InvocationMatcher.new ArgumentMatcherAction() {...}
+StubInfoImpl
+DefaultInvocationFactory
+MatchersBinder
+RealMethod.FromCallable
+InvocationsFinder.RemoveNotMatching
+InvocationMarker
+InvocationComparator
+RealMethod.FromCallable.new InvocationFactory.RealMethodBehavior() {...}
+InvocationMatcher
+SerializableMethod
+MatcherApplicationStrategy
+ArgumentsProcessor
+RealMethod.FromBehavior
+TypeSafeMatching
+MockitoHamcrest
+AdditionalMatchers
+AdditionalAnswers
+ArgumentCaptor
+BDDMockito.ThenImpl
+ArgumentMatchers
+BDDMockito
+BDDMockito.BDDStubberImpl
+MockitoAnnotations
+Answers
+Matchers
+BDDMockito.BDDOngoingStubbingImpl
+Mockito
+Strictness
+MockWeakReference
+MockStrongReference
